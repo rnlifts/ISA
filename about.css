@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-image: url(wooden-solid-dark-brown-wallpaper-preview.jpg);
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer {
+	/* background-color: #ccc; */
+	color: #333;
+	padding: 10px;
+	text-align: center;
+}
